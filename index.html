@@ -12,7 +12,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 </head>
 
 <body class="register-body min-h-screen flex justify-center items-center">
@@ -49,7 +48,7 @@
                     <path
                         d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
                 </svg>
-                <input id="username-input" type="text" class="grow" placeholder="Username" />
+                <input id="username-input-regi" type="text" class="grow" placeholder="Username" />
             </label>
             <label class="input input-bordered flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
@@ -60,12 +59,14 @@
                 </svg>
                 <input id="password-input" type="password" class="grow" placeholder="Password" />
             </label>
-            <button id="registation-btn" class="btn btn-primary min-w-full">Submit</button>
+            <button id="registation-btn" class="btn btn-primary min-w-full mt-7">সাইন আপ করুন</button>
+            <p class="text-center text-white text-lg py-5">একটি অ্যাকাউন্ট নেই? <span class="underline text-primary font-bold"><a href="./login.html">লগইন করুন</a></span></p>
         </div>
     </section>
 
     <script src="./js/utility.js"></script>
     <script src="./js/registation.js"></script>
+    <script src="./js/login.js"></script>
 </body>
 
 </html>
